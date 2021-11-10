@@ -21,6 +21,8 @@ public:
 private slots:
     void on_canvasButton_clicked();
 
+    void on_canvasButton_pressed();
+
 private:
     Ui::SprT *ui;
 };
